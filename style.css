@@ -1,0 +1,63 @@
+*{box-sizing: border-box;} body {margin: 0px;}
+:root {
+ --primary-color: rgb(144,192,201);
+ --secondaary-color: rgb(235, 181, 181);
+ --tertiary-color: rgb(233, 220, 220);
+ }
+body {font-family: 'Sarala', sans-serif;
+  background-color:var(--primary-color); 
+  font-size: 15px;}
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background-color: var(--secondaary-color);
+  box-shadow: 5px 5px 5px rgb(145, 143, 143);
+  border-radius: 20px;
+}  
+
+.title {background-color: var(--tertiary-color);
+color: black;
+padding: 20px;
+font-weight: normal;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+text-align: center;
+}
+.tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.formImput {
+  background-color: aliceblue;
+  width: 40px;
+  padding: 5px 5px 8px 8px;
+
+}
+.formImput :focus {
+border: 3px solid var(--primary-color);
+outline: none;
+}
+.formSelect {
+  width: 180px; 
+  padding: 5px;
+  font-size: 12px;
+}
+
+.formSubmit {
+  font-weight: bold;
+  text-transform: uppercase;
+  display:block;
+  margin: 30px auto;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  width: 200px; 
+  height: 50px;
+  font-size: 17px;
+
+}
+#totalTips {
+  font-size: 15px;
+  margin-top: 5px ;
+  text-align: center;
+}
